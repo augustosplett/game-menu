@@ -1,0 +1,50 @@
+* {
+    font-family: monaco,Consolas,Lucida Console,monospace; 
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: gray;
+    padding: 10px;
+}
+body h1{
+    font-size: 28px;
+    padding: 10px;
+}
+
+body h3{
+    font-size: 22px;
+    padding: 10px;
+}
+
+body ul li{
+    font-size: 18px;
+    padding: 10px;
+}
+
+body ul li:hover{
+    color: white;
+    background-color: red;
+    transform: scale(1.03);
+    transition: .3s;
+}
+
+
+body button{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.selected{
+    color: red;
+}
+
+
+
